@@ -1,24 +1,48 @@
 # Rayito Gest
 
-Aplicación móvil de administración desarrollada para el examen de Computación Móvil.
+## Descripción
 
-Permite iniciar sesión y gestionar productos, categorías y proveedores. En cada módulo se pueden consultar registros, ver detalles, agregar, editar y eliminar.
+Rayito Gest es una aplicación móvil desarrollada en Flutter para organizar y administrar productos, categorías y proveedores.
 
-## Herramientas
+Este proyecto fue realizado para el examen de la asignatura Computación Móvil de Ingeniería Informática.
 
-- Flutter y Dart
-- Firebase Authentication
-- API proporcionada por el profesor
+## Funcionalidades
 
-## Para ejecutar
+La aplicación cuenta con una pantalla de inicio de sesión y un menú principal desde donde se puede acceder a tres módulos:
 
-1. Abrir el proyecto Flutter en VS Code.
-2. Configurar Firebase para Android con `flutterfire configure`.
-3. Ejecutar `flutter pub get` y `flutter run`.
-4. Ingresar con una cuenta de prueba creada en Firebase Authentication.
+- **Productos:** permite listar, ver, agregar, editar y eliminar productos.
+- **Categorías:** permite listar, ver, agregar, editar y eliminar categorías.
+- **Proveedores:** permite listar, ver, agregar, editar y eliminar proveedores.
 
-El acceso al sistema requiere una cuenta autorizada. La API de productos, categorías y proveedores es compartida para el examen.
+También permite cerrar sesión desde la pantalla principal.
+
+## Herramientas utilizadas
+
+- Flutter y Dart.
+- Visual Studio Code.
+- Android Studio.
+- Firebase Authentication.
+- API proporcionada por el profesor.
+
+## Funcionamiento
+
+La aplicación utiliza Firebase Authentication para iniciar sesión con correo y contraseña.
+
+Los datos de productos, categorías y proveedores se consultan y administran mediante la API entregada para el examen.
+
+Para ejecutar el proyecto se necesita tener Flutter configurado y un emulador Android.
+
+Desde la carpeta del proyecto se utilizan los siguientes comandos:
+
+```bash
+flutter pub get
+flutter run
+```
+
+Para ingresar a la aplicación se necesita una cuenta registrada en Firebase Authentication.
 
 ## Autora
 
-María — Ingeniería Informática.
+María
+
+Examen de Computación Móvil — Ingeniería Informática.
